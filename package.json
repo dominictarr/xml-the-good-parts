@@ -1,0 +1,23 @@
+{
+  "name": "xml-the-good-parts",
+  "description": "convert a subset of XML into JSON",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/xml-the-good-parts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/xml-the-good-parts.git"
+  },
+  "bin": "./index.js",
+  "dependencies": {
+    "split": "~0.2.5",
+    "through": "~2.3.4",
+    "stream-combiner": "0.0.2",
+    "JSONStream": "~0.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
