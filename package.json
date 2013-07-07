@@ -1,7 +1,7 @@
 {
   "name": "xml-the-good-parts",
   "description": "convert a subset of XML into JSON",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/xml-the-good-parts",
   "repository": {
     "type": "git",
